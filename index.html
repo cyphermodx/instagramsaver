@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Instagram Reel Saver – save reels as video or audio</title>
+<meta name="description" content="Paste an Instagram reel link and save it as video or audio. Built for content you own or have permission to use.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html">INSTAGRAM SAVER <small>By Cypher</small></a>
+  <nav class="nav" aria-label="Main">
+    <a href="index.html" aria-current="page">Home</a>
+    <a href="updates.html">Upcoming Updates</a>
+    <a href="about.html">About Us</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="top">
+    <h1 id="page-title">INSTAGRAM REEL SAVER</h1>
+    <p class="byline">By Techcypherofficial</p>
+
+    <form id="saver-form" class="saver" novalidate>
+      <label for="url" class="sr-only">Instagram reel URL</label>
+      <input id="url" name="url" type="url" inputmode="url" placeholder="Paste your reel URL" autocomplete="off">
+      <button type="submit" class="btn-download">
+        <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 20h14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Download
+      </button>
+    </form>
+
+    <div class="mode" role="group" aria-label="Output type">
+      <button type="button" data-mode="video" aria-pressed="true">Video</button>
+      <button type="button" data-mode="audio" aria-pressed="false">Audio</button>
+    </div>
+
+    <div id="result" class="result" aria-live="polite" hidden></div>
+  </section>
+
+  <p class="notice">
+    InstagramSaver is built to help you download content you own or have permission to use.
+    We may refuse service for misuse, including copyright or privacy violations.
+    InstagramSaver is not affiliated with Instagram.
+  </p>
+
+  <section class="section">
+    <h2>How it works</h2>
+    <p class="lede">Three steps, no account needed.</p>
+    <ol class="steps">
+      <li><span class="n">1</span><div><strong>Copy the link</strong><span class="d">In Instagram, open the reel, tap Share, then Copy link.</span></div></li>
+      <li><span class="n">2</span><div><strong>Paste it above</strong><span class="d">Choose Video or Audio, then press Download.</span></div></li>
+      <li><span class="n">3</span><div><strong>Save the file</strong><span class="d">Your file appears below the buttons. Use its download button to save it.</span></div></li>
+    </ol>
+  </section>
+
+  <section class="section faq" id="faq">
+    <h2>Reels downloader FAQ</h2>
+    <p class="lede">Common questions about downloading Instagram reels.</p>
+
+    <details>
+      <summary>Will the audio be included in my video download?</summary>
+      <p>Yes. The video file keeps the reel's own audio, including music and voiceover. To save only the sound, switch to the Audio tab.</p>
+    </details>
+    <details>
+      <summary>Are watermarks added to downloaded reels?</summary>
+      <p>This site doesn't add its own watermark or branding to your file.</p>
+    </details>
+    <details>
+      <summary>What video quality can I expect?</summary>
+      <p>You get the quality the creator uploaded and Instagram makes available. We don't re-encode files, so some reels will be lower resolution than others.</p>
+    </details>
+    <details>
+      <summary>Can I save just the audio without the video?</summary>
+      <p>Yes. Choose Audio, paste the link, and download the reel's soundtrack or voiceover as an audio file.</p>
+    </details>
+    <details>
+      <summary>What about reels from private accounts?</summary>
+      <p>Private accounts aren't supported. Only public reels can be saved.</p>
+    </details>
+  </section>
+
+  <section class="section">
+    <h2>Save Instagram reels with the parts that matter</h2>
+    <p class="lede">Reels depend on timing, vertical framing, and audio working together. This page saves public reels in a format that stays useful outside the Instagram app.</p>
+
+    <h3>Why use a reel-specific saver</h3>
+    <p>A reel isn't just another video post. Short-form pacing, music cues, captions, and vertical framing all matter, so a weak download can strip away the parts that made the reel useful.</p>
+    <p class="list-label">Good reasons to save a reel</p>
+    <ul>
+      <li>Back up your own reels before editing, deleting, or reposting them elsewhere.</li>
+      <li>Review hooks, pacing, subtitles, and audio choices from public examples.</li>
+      <li>Keep tutorials, explainers, or campaign references available offline.</li>
+    </ul>
+
+    <h3>Choose the output that matches the job</h3>
+    <p>If the reel itself matters, save the full video. If you only need the soundtrack, voiceover, or a spoken clip, use audio-only.</p>
+    <p class="list-label">Before you download</p>
+    <ul>
+      <li>Use video for edit reference, repeat planning, or archive.</li>
+      <li>Use audio only when sound matters more than visuals.</li>
+      <li>Copy the link directly from Instagram. Trimmed or tracking-heavy links can fail.</li>
+    </ul>
+
+    <h3>Reuse reels responsibly</h3>
+    <p>Downloading a public reel doesn't transfer ownership. If you plan to share, publish, or repurpose it, credit and permission still matter.</p>
+    <p class="list-label">Good practice</p>
+    <ul>
+      <li>Credit the original creator when sharing public clips.</li>
+      <li>Don't repost private, paid, or closed-community content outside its intended audience.</li>
+      <li>Ask for permission before commercial reuse when the reel isn't yours.</li>
+    </ul>
+  </section>
+
+  <section class="cta-band">
+    <h2>Start downloading Instagram reels now</h2>
+    <p>Save a reel as video or audio. Free to use, no sign-up.</p>
+    <div class="cta-actions">
+      <a class="btn-grad" href="#saver-form">Download reel now</a>
+      <a class="btn-ghost" href="updates.html">View all tools</a>
+    </div>
+    <ul class="cta-points">
+      <li>Video or audio</li>
+      <li>No sign-up</li>
+      <li>Free to use</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <ul class="footer-links">
+    <li><a href="updates.html">More Updates</a></li>
+    <li><a href="about.html#contact">Contact</a></li>
+    <li><a href="index.html#faq">FAQ</a></li>
+  </ul>
+  <p class="legal">InstagramSaver is not affiliated with Instagram. Please respect copyright and privacy rights.<br>© 2026 InstagramSaver. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
