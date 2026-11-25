@@ -7,7 +7,7 @@
      See README.md ("Connecting the download button") for the format.
      Leave it empty and the site shows a "not connected yet" message.
   ---------------------------------------------------------------- */
-  const API_ENDPOINT = "";
+  const API_ENDPOINT = "https://instagramsaver-backend.onrender.com/process";
   const REQUEST_TIMEOUT_MS = 20000;
 
   const form = document.getElementById("saver-form");
